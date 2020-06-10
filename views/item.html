@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Item</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navigation-contain">
+      <div id="title">
+        <span onclick=" location='/' ">News Everyday  </span>
+      </div>
+      <ul class="navigation">
+        <li><a href="#">new</a></li>
+        <li><a href="#">comments</a></li>
+        <li><a href="#">show</a></li>
+        <li><a href="#">ask</a></li>
+        <li><a href="#">jobs</a></li>
+        <li><a href="submit.html">submit</a></li>
+      </ul>
+    </div>
+    <div style="text-align:center">
+      <h3> <%= news.title  %> </h3>
+      <br>
+      <p style="word-wrap:break-word;">  <%= news.detail %> </p>
+
+    </div>
+  </body>
+</html>

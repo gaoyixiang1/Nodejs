@@ -1,0 +1,40 @@
+body,html{
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  background-image: url(./bac);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navigation-contain{
+  margin-top: -3px;
+  height:15%;
+  background-color:green;
+}
+#title{
+  margin:3px 10px;
+}
+.navigation{
+  list-style:none;
+  padding:0;
+  width:600px;
+  margin:1.5% 0;
+}
+.navigation li{
+  float:left;
+  padding:0 10px;
+  margin:0 10px;
+  height:20px;
+  line-height: 20px;
+  background-color:yellowgreen;
+}
+.navigation a{
+  color:white;
+  text-decoration:none;
+}
+#news{
+  border: 1px solid black;
+  margin:10px;
+ 
+}

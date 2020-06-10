@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Submit</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navigation-contain">
+      <div id="title">
+        <span onclick=" location='/' ">News Everyday </span>
+      </div>
+      <ul class="navigation">
+        <li><a href="#">new</a></li>
+        <li><a href="#">comments</a></li>
+        <li><a href="#">show</a></li>
+        <li><a href="#">ask</a></li>
+        <li><a href="#">jobs</a></li>
+        <li><a href="submit.html">submit</a></li>
+      </ul>
+    </div>
+    <!--只有设置了 name 属性的元素才会被提交-->
+    <form method="get" action="/add">
+      <p><label>添加标题:</label></p>
+      <input type="text" name="title" value="" size="40"/>
+      <p><label>添加内容:</label></p>
+      <textarea value="" rows=10 cols=35 name="detail"></textarea>
+      <input value=" add " type="submit"/>
+    </form>
+    <form method="post" action="/add">
+      <p><label>添加标题:</label></p>
+      <input type="text" name="title" value="" size="40"/>
+      <p><label>添加内容:</label></p>
+      <textarea value="" rows=10 cols=35 name="detail"></textarea>
+      <input value=" post add " type="submit"/>
+    </form>
+  </body>
+  </html>
